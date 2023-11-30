@@ -23,7 +23,7 @@
   </div>
   <script>
     async function list() {
-      const endpoint = '/data-api/rest/department';
+      const endpoint = '/data-api/rest/courses';
       const response = await fetch(endpoint);
       const data = await response.json();
       console.log(data.value);
